@@ -18,11 +18,11 @@ function App() {
     setTodos(previousTodos => {
       return previousTodos.filter(todo => todo.id !== todoId);
     });
-  }
+  };
 
   return (
     <div className="App">
-      <NewTodo onAddTodo={todoAddHandler} />
+      <NewTodo onAddTodo={todoAddHandler} setTodos={setTodos} />
       <TodoList items={todos} onDeleteTodo={todoDeleteHandler} />
     </div>
   );

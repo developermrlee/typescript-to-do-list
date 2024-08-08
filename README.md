@@ -15,7 +15,7 @@ You will also see any lint errors in the console.
 ## Screenshots
 
 1. Before adding todo
-   ![Alt Text](Todo-screenshot1.png)
+   ![Screenshot 1](https://github.com/webdevmrlee/typescript-to-do-list/blob/main/screenshots/Todo-screenshot1.png)
 
 2. After adding todo
    ![Alt Text](Todo-screenshot2.png)

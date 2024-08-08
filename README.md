@@ -18,7 +18,7 @@ You will also see any lint errors in the console.
    ![Screenshot 1](https://github.com/webdevmrlee/typescript-to-do-list/blob/main/screenshots/Todo-screenshot1.png)
 
 2. After adding todo
-   ![Alt Text](Todo-screenshot2.png)
+   ![Screenshot 2](https://github.com/webdevmrlee/typescript-to-do-list/blob/main/screenshots/Todo-screenshot2.png)
 
 ### `npm test`
 

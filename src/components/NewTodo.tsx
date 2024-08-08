@@ -17,8 +17,13 @@ const NewTodo: React.FC<NewTodoProps> = props => {
     return (
     <form onSubmit={todoSubmitHandler}>
         <div className="form-control">
-            <label htmlFor="todo-text">Todo Text</label>
-            <input type="text" id="todo-text" ref={textInputRef} />
+            <label htmlFor="todo-text">Enter your TODO</label>
+            <input 
+              type="text" 
+              id="todo-text" 
+              ref={textInputRef} 
+              style={{ marginTop: '1rem' }} 
+            />
         </div>
         <button type="submit">ADD TODO</button>
     </form>
